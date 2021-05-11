@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import FadeIn from "react-fade-in";
-import Spinner from "../spinner.js";
+import { Spinner } from "../spinner.js";
 import Post from "./post.js";
 
 function Posts() {
