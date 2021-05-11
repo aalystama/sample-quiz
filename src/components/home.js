@@ -29,6 +29,9 @@ function Home() {
             <a href="https://jsonplaceholder.typicode.com/">
               JSONPlaceholder REST API
             </a>
+            .<br />
+            Пожалуйста, если у вас есть AdBlock, то отключите его. Он по
+            какой-то причине думает что картинки это реклама...
           </h3>
         </FadeIn>
       </Col>
