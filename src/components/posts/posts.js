@@ -18,7 +18,7 @@ function Posts() {
     return (
       <FadeIn>
         {posts.map((post) => (
-          <Post title={post.title} body={post.body} />
+          <Post key={post.id} title={post.title} body={post.body} />
         ))}
       </FadeIn>
     );

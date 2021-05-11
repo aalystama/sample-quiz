@@ -3,6 +3,7 @@ import { Switch, Route, Link } from "react-router-dom";
 import Posts from "./components/posts/posts.js";
 import Home from "./components/home.js";
 import Albums from "./components/albums/albums.js";
+import { Photos } from "./components/photos/photos.js";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/posts" component={Posts} />
         <Route exact path="/albums" component={Albums} />
+        <Route exact path="/albums/:albumId" component={Photos} />
         <Route exact path="/todos" component={Todos} />
       </Switch>
     </div>
