@@ -1,7 +1,7 @@
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import { Switch, Route, Link } from "react-router-dom";
 import Posts from "./components/posts/posts.js";
-import Home from "./components/home/home.js";
+import Home from "./components/home.js";
 
 function App() {
   return (

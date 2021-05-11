@@ -21,6 +21,9 @@ function Home() {
                   react-fade-in
                 </a>
               </li>
+              <li>
+                <a href="https://reactrouter.com/">react-router</a>
+              </li>
             </ul>
             Данные получаются от{" "}
             <a href="https://jsonplaceholder.typicode.com/">
