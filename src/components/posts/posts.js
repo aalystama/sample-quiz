@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import FadeIn from "react-fade-in";
 import Spinner from "../spinner.js";
 import Post from "./post.js";
 
@@ -14,7 +15,13 @@ function Posts() {
   if (posts.length === 0) {
     return <Spinner animation="border" />;
   } else {
-    return posts.map((post) => <Post title={post.title} body={post.body} />);
+    return (
+      <FadeIn>
+        {posts.map((post) => (
+          <Post title={post.title} body={post.body} />
+        ))}
+      </FadeIn>
+    );
   }
 }
 
