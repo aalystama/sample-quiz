@@ -13,7 +13,6 @@
     "react-fade-in": "^2.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "react-simple-image-viewer": "^0.0.8",
     "styled-components": "^5.3.0",
     "web-vitals": "^1.1.2"
   },
