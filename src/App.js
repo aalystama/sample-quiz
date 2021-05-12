@@ -4,6 +4,7 @@ import Posts from "./components/posts/posts.js";
 import Home from "./components/home.js";
 import Albums from "./components/albums/albums.js";
 import { Photos } from "./components/photos/photos.js";
+import Todos from "./components/todos/todos.js";
 
 function App() {
   return (
@@ -45,10 +46,6 @@ function App() {
       </Switch>
     </div>
   );
-}
-
-function Todos() {
-  return <h2>Todos</h2>;
 }
 
 export default App;
