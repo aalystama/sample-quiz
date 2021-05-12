@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useMemo, useState } from "react";
 import FadeIn from "react-fade-in";
 import { Spinner } from "../spinner.js";
 import Post from "./post.js";
@@ -6,7 +6,7 @@ import Post from "./post.js";
 function Posts() {
   const [posts, setPosts] = useState([]);
 
-  useEffect(() => {
+  useMemo(() => {
     fetch("https://jsonplaceholder.typicode.com/posts")
       .then((response) => response.json())
       .then((json) => setPosts(json));
